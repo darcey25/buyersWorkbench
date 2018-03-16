@@ -18,14 +18,14 @@ vendor_pn VARCHAR(100) NULL,
 lt_days INT NOT NULL,
 cost DECIMAL(10,2) NOT NULL,
 sales_price DECIMAL(10,2) NOT NULL,
-ord_qty INT NULL 1,
-qoh INT NULL 0,
-ss INT NULL 0,
+ord_qty INT NULL DEFAULT 1,
+qoh INT NULL DEFAULT 0,
+ss INT NULL DEFAULT 0,
 committed INT NULL,
-active BOOLEAN NOT NULL DEFAULT 0
-30_Past INT,
-60_Past INT,
-90_Past INT,
+active BOOLEAN NOT NULL DEFAULT 0,
+thirty_Past INT,
+sixty_Past INT,
+ninety_Past INT,
 current_f INT
 
 );
