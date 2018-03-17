@@ -4,8 +4,6 @@
 
 // Dependencies
 // =============================================================
-// var path = require("path");
-
 var db = require("../models/");
 
 // Routes
@@ -25,11 +23,6 @@ module.exports = function(app) {
   // index route loads itemInfo.handlebars
   app.get("/iteminfo/:pn?", function(req, res) {
     res.render("itemInfo");
-  });
-
-  // cms route loads login.handlebars
-  app.get("/login", function(req, res) {
-    res.render("login");
   });
 
   // blog route loads req.handlebars

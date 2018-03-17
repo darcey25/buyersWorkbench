@@ -43,7 +43,5 @@ module.exports = function(sequelize, DataTypes) {
     timestamps: false
   });
 
-
-
   return Purchase_order_lines;
 };
