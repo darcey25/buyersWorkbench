@@ -21,7 +21,6 @@ $('#myModal').on('shown.bs.modal', function () {
   });
 
   var populateInq = function(res){
-
     var pn = res;
     var soTotal="0";
     var poTotal="0";
