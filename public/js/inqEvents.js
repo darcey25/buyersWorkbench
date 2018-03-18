@@ -20,6 +20,7 @@ $(document).ready(function() {
 
   // This functions contains all the GET requests and logic to populate the DOM
   var populateInq = function(res){
+    //variables to hold the extracted data to calculate the supply/demand
     var pn = res;
     var soTotal="0";
     var poTotal="0";
